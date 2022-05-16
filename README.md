@@ -64,3 +64,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Note:
+Please change the URL (loopback server url) in these files
+loopback-react-frontend\src\components\SignIn.js (const url = "http://127.0.0.1:3000/login";) line number 26
+loopback-react-frontend\src\components\SignUp.js (const url = "http://127.0.0.1:3000/users";) line number 37
+loopback-react-frontend\src\components\Home.js (const url = "http://127.0.0.1:3000/users";) line number 31
+
